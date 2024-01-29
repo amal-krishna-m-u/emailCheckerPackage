@@ -11,7 +11,7 @@ COPY . /app
 RUN go build -o main .
 
 # Expose port 5000 to the outside world
-EXPOSE 5000
+EXPOSE 8080
 
 # Run the executable
 CMD ["/app/main"]
