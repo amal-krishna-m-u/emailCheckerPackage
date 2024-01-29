@@ -16,6 +16,9 @@ const formTemplate = `
     <title>Email Domain Verifier</title>
 </head>
 <body>
+	<h1> Amalmullangath</h1>
+	<p>This is a email verifier ,
+	This will verify the existance of a email</p>
     <h2>Email Domain Verifier</h2>
     <form method="post" action="/verify">
         Email: <input type="email" name="email">
